@@ -15,5 +15,7 @@ async def kick(ctx, member: discord.Member):
     await member.kick()
     await ctx.message.add_reaction("reaction")
 
+# SUPER IMPORTANTE ----> ANTES DE HACER UN COMMIT / PUSH, PONER UN ESPACIO EN BLANCO (" ") DENTRO DEL TOKEN PARA QUE DISCORD NO LO DETECTE EN GITHUB Y CAMBIE LA CLAVE AUTOMATICAMENTE. NO COMPARTIR LA CLAVE CON NADIE!
+
 token = 'OTAyNzA2OTQ5MDM1MDEyMTE4' '.YXiVXA.0-uVBR-9AkSihWI33Of5VKuY9MM'
 bot.run(token)
