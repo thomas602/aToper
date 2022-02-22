@@ -15,4 +15,5 @@ async def kick(ctx, member: discord.Member):
     await member.kick()
     await ctx.message.add_reaction("reaction")
 
-bot.run('OTAyNzA2OTQ5MDM1MDEyMTE4.YXiVXA.y6rb5FBWdqtVg_LIh3rl1c6pVFU')
+token = 'OTAyNzA2OTQ5MDM1MDEyMTE4' + '.YXiVXA.y6rb5FBWdqtVg_LIh3rl1c6pVFU'
+bot.run(token)
